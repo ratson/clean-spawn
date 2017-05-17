@@ -1,0 +1,26 @@
+{
+  "name": "clean-spawn",
+  "version": "0.0.0",
+  "description": "Clean spawned child process on exit",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "exit-hook": "^1.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "repository": "ratson/clean-spawn",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "files": [
+    "*.md",
+    "LICENSE",
+    "lib"
+  ]
+}
