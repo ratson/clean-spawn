@@ -4,14 +4,18 @@
   "description": "Clean spawned child process on exit",
   "main": "lib/index.js",
   "scripts": {
-    "test": "ava"
+    "lint": "eslint --ext js --ext md .",
+    "test": "ava",
+    "posttest": "npm run lint"
   },
   "dependencies": {
     "child-process-promise": "^2.2.1",
     "exit-hook": "^1.1.1"
   },
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6"
   },
   "repository": "ratson/clean-spawn",
   "license": "MIT",
