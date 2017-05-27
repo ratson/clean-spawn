@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "child-process-promise": "^2.2.1",
-    "exit-hook": "^1.1.1"
+    "signal-exit": "^3.0.2"
   },
   "devDependencies": {
     "ava": "^0.19.1",
