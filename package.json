@@ -1,6 +1,6 @@
 {
   "name": "clean-spawn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clean spawned child process on exit",
   "main": "lib/index.js",
   "scripts": {
